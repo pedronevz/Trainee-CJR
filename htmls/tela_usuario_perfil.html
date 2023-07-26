@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/tela_usuario_perfil.css">
+    <title>Feed</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="feed.html">
+                <button class="botao_logo">
+                    <img src="/imagens/cjr.png" alt="logo_cjr">
+                </button>
+            </a>
+        </div>
+        <div class="profile_navbar">
+            <div class="profile_name_navbar">
+            </div>
+            <div class="profile_pic_navbar">
+                <button class="botao_ir_para_perfil">
+                    <img class="profile_pic_image_navbar" src="/imagens/perfil.png" alt="foto_de_perfil">
+                </button>
+            </div>
+        </div>
+        <div class="sair">
+            <button class="botao_sair">
+                <img src="/imagens/log-out.png" alt="sair">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="banner_area">
+            </div>
+        </div>
+
+        <div class="feed">
+            <div class="feed_area">
+                <dialog class="criar_comentario">
+                    <div class="caixa_de_texto_novo_comentario">
+                        <div class="options">
+                            <button class="botao_dialog" id="negrito">
+                                <img src="/imagens/bold.png" alt="logo_cjr">
+                            </button>
+                            <button class="botao_dialog" id="italico">
+                                <img src="/imagens/italic.png" alt="logo_cjr">
+                            </button>
+                        </div>
+                        <textarea id="texto_novo_comentario" maxlength="250" placeholder="Escreva seu comentário..."></textarea>
+                        <button class="botao_publicar_modal" id="botao_postar_novo_comentario">Publicar</button>
+                        <button class="botao_fechar_modal"  id="botao_fechar_modal_novo_comentario">Voltar</button>
+                    </div>
+                </dialog>
+                <div class="up_feed">
+                    <div class="editar_perfil">
+                        <a href="tela_editar_perfil.html">
+                            <button class="botao_editar_perfil">Editar Perfil</button>
+                        </a>
+                    </div>
+                    <div class="foto_perfil">
+                        <img class="foto_perfil_grande" src="/imagens/perfil_grande.png" alt="foto_perfil_grande">
+                    </div>
+                    <div class="bio"></div>
+                </div>
+                <div class="feed_background">
+                    <div class="publicacoes">
+                        <label for="publicacoes" id="publicacoes_txt">Publicações</label>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/scripts/tela_usuario_perfil.js"></script>
+</body>
+</html>

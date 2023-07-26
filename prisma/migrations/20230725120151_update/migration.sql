@@ -1,0 +1,7 @@
+-- AlterTable
+ALTER TABLE "logado" ALTER COLUMN "id" SET DEFAULT 1,
+ALTER COLUMN "id" DROP DEFAULT;
+DROP SEQUENCE "logado_id_seq";
+
+-- AlterTable
+ALTER TABLE "user" ALTER COLUMN "gender" SET DATA TYPE CHAR;

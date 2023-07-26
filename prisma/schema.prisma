@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:postgres@localhost:5432/bdCJR?schema=public"
+}
+
+model user {
+  id       Int @id @default(autoincrement())
+  username String @unique @db.VarChar(50)
+  senha    String? @db.VarChar(250)
+  gender   String @db.Char
+  email    String @db.VarChar(250)
+  cargo    String @db.VarChar(250)
+}
+
+model cargo {
+  id       Int  @id @default(autoincrement())
+  nome     String? @db.VarChar(250)
+  nucleo   String? @db.VarChar(250)
+}
+
+model post {
+  id       Int  @id @default(autoincrement())
+  user_id  Int @default(autoincrement())
+  content  String? @db.VarChar(250)
+  date String? @db.VarChar(10)
+  author String? @db.VarChar(50)
+}
+
+model comments {
+  id       Int  @id @default(autoincrement())
+  post_id  Int @default(autoincrement())
+  user_id  Int @default(autoincrement())
+  content  String? @db.VarChar(250)
+  date String? @db.VarChar(10)
+  author String? @db.VarChar(50)
+
+}
+
+model logado {
+  id Int @id @default(1)
+  username String @db.VarChar(50)
+  user_id Int @default(autoincrement())
+}

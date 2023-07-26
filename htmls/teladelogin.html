@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/teladelogin.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="entrar">
+            <a href="teladelogin.html">
+                <button class="botao_entrar">Entrar</button>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="feed.html">
+                <button class="botao_logo">
+                    <img src="/imagens/cjr.png" alt="logo_cjr">
+                </button>
+            </a>
+        </div>
+        <div class="criar_conta">
+            <a href="teladecadastro.html">
+                <button class="botao_criar_conta">Criar Conta</button>
+            </a>
+        </div>
+
+    </header>
+    <main class="login">
+        <form id="form">
+            <div class="login_caixa">
+                <div class="imagem_circulo_usuario_login">
+                    <img src="/imagens/circulo_usuario_login.png" alt="circulo_usuario_login" />
+                </div>
+                <div class="input_login">
+                    <input type="text" name="login" value="" placeholder="Login" id="txt_login" />
+                </div>
+                <div class="input_senha">
+                    <input type="password" name="senha" value="" placeholder="Senha" id="txt_senha"/>
+                </div>
+                <div class="senha_esquecida">
+                    <a href="teladerecuperacaodesenha.html">
+                        <button id="botao_senha_esquecida">Esqueceu a senha?</button>
+                    </a>
+                </div>
+                <div class="entrar_login">
+                    <button type="submit" id="botao_entrar_login">Entrar</button>
+                </div>
+            </div>
+        </form>
+        <script src="/scripts/login.js"></script>
+    </main>
+</body>
+</html>

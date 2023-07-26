@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/feed_post_aberto.css">
+    <title>Feed</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="entrar">
+                <a href="teladelogin.html">
+                    <button class="botao_entrar">Entrar</button>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="feed.html">
+                    <button class="botao_logo">
+                        <img src="/imagens/cjr.png" alt="logo_cjr">
+                    </button>
+                </a>
+            </div>
+            <div class="criar_conta">
+                <a href="teladecadastro.html">
+                    <button class="botao_criar_conta">Criar Conta</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="feed">
+        <div class="feed_area">
+                <div class="post_aberto">
+                    <div class="post_content"> 
+                        <div class="profile">
+                            <div class="profile_pic">
+                                <img class="profile_pic_image" src="/imagens/perfil.png" alt="foto_de_perfil">
+                            </div>
+                            <div class="profile_name">
+                                <label for="profile_name" id="profile_name">Joãoasodoadows</label>
+                                <label for="separador" id="separador">·</label>
+                                <label for="data" id="data">22 de jun</label>
+                            </div>
+                        </div>
+                        <div class="post_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eum consequatur beatae ducimus dolorem exercitationem,
+                            consequuntur a suscipit voluptate quaerat sunt, cumque, repudiandae ea. Deserunt voluptate explicabo rem nisi modi.
+                        </div>
+                    </div>
+                    <div class="comments"></div>
+                </div>
+                <dialog class="criar_comentario">
+                    <div class="caixa_de_texto_novo_comentario">
+                        <div class="options">
+                            <button class="botao_dialog" id="negrito">
+                                <img src="/imagens/bold.png" alt="logo_cjr">
+                            </button>
+                            <button class="botao_dialog" id="italico">
+                                <img src="/imagens/italic.png" alt="logo_cjr">
+                            </button>
+                        </div>
+                        <textarea id="texto_novo_comentario" maxlength="250" placeholder="Escreva seu comentário..."></textarea>
+                        <button class="botao_publicar_modal" id="botao_postar_novo_comentario">Publicar</button>
+                        <button class="botao_fechar_modal"  id="botao_fechar_modal_novo_comentario">Voltar</button>
+                    </div>
+                </dialog>
+                <div class="feed_rodape_comentar">
+                    <div class="comentar">
+                        <button class="botao_comentar">Comentar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/scripts/feed_post_aberto.js"></script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/teladerecuperacaodesenha.css">
+    <title>Recuperacao de Senha</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="entrar">
+            <a href="teladelogin.html">
+                <button class="botao_entrar">Entrar</button>
+            </a>
+        </div>
+        <div class="logo">  
+            <a href="feed.html">
+                <button class="botao_logo">
+                    <img src="/imagens/cjr.png" alt="logo_cjr">
+                </button>
+            </a>
+        </div>
+        <div class="criar_conta">
+            <a href="teladecadastro.html">
+                <button class="botao_criar_conta">Criar Conta</button>
+            </a>
+        </div>
+
+    </header>
+    <main class="recuperacao">
+        <img src="/imagens/imagemcjrsite.png" alt="Imagem da CJR">
+        <div class="recuperacao_caixa">
+            <div class="texto_recuperacao">
+                Bem vindo de volta (usuario)! <br>Digite sua nova senha.
+            </div>
+            <div class="input_nova_senha">
+                Senha nova<br><br>   
+                <input type="password" name="novasenha" value="" placeholder="" id="txt_novasenha">
+            </div>
+            <div class="input_nova_senha_novamente">
+                Digite novamente a senha<br><br>
+                <input type="password" name="novasenha" value="" placeholder="" id="txt_novasenha">
+            </div> 
+            <div class="tem_cadastro">
+                <label for="tem_cadastro" id="label_tem_cadastro">
+                    Possui conta? <a href="teladelogin.html" id="faca_login_link">Acesse aqui</a>
+                </label>
+            </div>
+            <div class="cadastrar">
+                <button id="botao_cadastrar">Cadastrar</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

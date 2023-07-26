@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #111E3E;
+
+}
+
+.navbar {
+    position: fixed;
+    background-color: #8bc34a;
+    height: 4.5rem;
+    width: 100vw;
+}
+
+.entrar {
+    height: 2.5rem;
+    width: 5.75rem;
+    position: absolute;
+    background-color: #8bc34a;
+    right: 2.5rem;
+    top: 1rem;
+}
+
+.botao_entrar {
+    background-color: #222e50;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border-width: 0;
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5.75rem;
+    font-size: 1rem;
+}
+
+.logo {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.75rem;
+    height: 2.75rem;
+    width: 8rem;
+}
+
+
+.botao_logo {
+    height: 2.75rem;
+    width: 8rem;
+    border: 0;
+    border-radius: 1rem;
+    background-color: #d9d9d9;
+}
+
+.criar_conta {
+    position: absolute;
+    height: 2.5rem;
+    width: 5.75rem;
+    right: 10rem;
+    top: 1rem;
+
+}
+
+.botao_criar_conta {
+    background-color: #8bc34a;
+    color: #222e50;
+    font-family: 'Inter', sans-serif;
+    border-width: 0;
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5.75rem;
+    font-size: 1rem;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13% 0%;
+
+
+}
+
+.login_caixa {
+    height: 33rem;
+    width: 35rem;
+    background-color: #222E50;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+
+#txt_login {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+
+}
+
+#txt_login::placeholder {
+    color: #222E50;
+    font-size: 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+
+#txt_senha {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+
+}
+
+#txt_senha::placeholder {
+    color: #222E50;
+    font-size: 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+
+}
+
+#botao_mostrar_senha {
+    position: absolute;
+    left: 108.5vh;
+    top: 61vh;
+    border: 0;
+    background: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+#botao_senha_esquecida {
+    background: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #111E3E;
+    font-size: 1rem;
+    text-decoration-line: underline;
+}
+
+#botao_entrar_login {
+    width: 18rem;
+    height: 3rem;
+    border-radius: 15px;
+    background: #D9D9D9;
+    border: 0;
+    color: #222E50;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+
+input {
+    padding-left: 1rem;
+}

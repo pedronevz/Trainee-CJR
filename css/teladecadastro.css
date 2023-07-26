@@ -1,0 +1,228 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100rem;
+    background-color: #111E3E;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #8bc34a;
+    height: 4.5rem;
+    width: 100vw;
+}
+
+.entrar {
+    height: 2.5rem;
+    width: 5.75rem;
+    position: absolute;
+    background-color: #8bc34a;
+    right: 2.5rem;
+    top: 1rem;
+}
+
+.botao_entrar {
+    background-color: #222e50;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border-width: 0;
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5.75rem;
+    font-size: 1rem;
+}
+
+.logo {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.75rem;
+    height: 2.75rem;
+    width: 8rem;
+}
+
+
+.botao_logo {
+    height: 2.75rem;
+    width: 8rem;
+    border: 0;
+    border-radius: 1rem;
+    background-color: #d9d9d9;
+}
+
+.criar_conta {
+    position: absolute;
+    height: 2.5rem;
+    width: 5.75rem;
+    right: 10rem;
+    top: 1rem;
+}
+
+.botao_criar_conta {
+    background-color: #8bc34a;
+    color: #222e50;
+    font-family: 'Inter', sans-serif;
+    border-width: 0;
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5.75rem;
+    font-size: 1rem;
+}
+
+
+button {
+    cursor: pointer;
+}
+.input_caixa{
+    padding: 1rem;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    padding: 10% 0%;
+}
+
+.cadastro_caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+    width: 35rem;
+    background-color: #222E50;
+}
+
+.imagem_circulo_usuario_cadastro {
+    padding-bottom: 2rem;
+}
+
+#txt_nome {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+#txt_nome::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #111E3E;
+    opacity: 0.6;
+}
+
+.select_genero {
+    padding: 1rem;
+}
+
+#select_genero {
+    width: 31rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+#txt_cargo {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+#txt_cargo::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #111E3E;
+    opacity: 0.6;
+}
+
+#txt_email {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+#txt_email::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #111E3E;
+    opacity: 0.6;
+}
+
+#txt_senha {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+#txt_senha::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #111E3E;
+    opacity: 0.6;
+}
+
+.tem_cadastro {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#label_tem_cadastro {
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 700;
+    color: aliceblue;
+}
+
+#faca_login_link:link {
+    color: #8bc34a;
+    text-decoration: none;
+}
+
+#faca_login_link:hover {
+    color: #8bc34a;
+}
+
+#faca_login_link:visited {
+    color: #8bc34a;
+}
+
+.cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 3rem;
+    padding: 1rem;
+}
+
+#botao_cadastrar {
+    width: 10rem;
+    height: 2rem;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 700;
+    color: #111E3E;
+    border: 0;
+    border-radius: 0.6rem;
+}
+
+input {
+    padding-left: 1rem;
+}
+
+select {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-left: 0.5rem;
+}

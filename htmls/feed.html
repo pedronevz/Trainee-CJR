@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/feed.css">
+    <title>Feed</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="entrar">
+            <a href="teladelogin.html">
+                <button class="botao_entrar">Entrar</button>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="feed.html">
+                <button class="botao_logo">
+                    <img src="/imagens/cjr.png" alt="logo_cjr">
+                </button>
+            </a>
+        </div>
+        <div class="criar_conta">
+            <a href="teladecadastro.html">
+                <button class="botao_criar_conta">Criar Conta</button>
+            </a>
+        </div>
+    </header>
+    <main class="feed">
+        <div class="feed_area">
+            <div class="feed_background">
+                <dialog class="criar_comentario">
+                    <div class="caixa_de_texto_novo_comentario">
+                        <div class="options">
+                            <button class="botao_dialog" id="add_imagem">
+                                <img src="/imagens/Vector.png" alt="logo_cjr">
+                            </button>
+                            <button class="botao_dialog" id="negrito">
+                                <img src="/imagens/bold.png" alt="logo_cjr">
+                            </button>
+                            <button class="botao_dialog" id="italico">
+                                <img src="/imagens/italic.png" alt="logo_cjr">
+                            </button>
+                        </div>
+                        <textarea id="comment_text" maxlength="250" placeholder="Escreva seu comentário..."></textarea>
+                    </div>
+                    <button class="botao_publicar_modal">Publicar</button>
+                    <button class="botao_fechar_modal">Voltar</button>
+                </dialog>
+                <script src="/scripts/feed.js"></script>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #111E3E;
+
+}
+
+.navbar {
+    position: fixed;
+    background-color: #8bc34a;
+    height: 4.5rem;
+    width: 100vw;
+}
+
+.entrar {
+    height: 2.5rem;
+    width: 5.75rem;
+    position: absolute;
+    background-color: #8bc34a;
+    right: 2.5rem;
+    top: 1rem;
+}
+
+.botao_entrar {
+    background-color: #222e50;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border-width: 0;
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5.75rem;
+    font-size: 1rem;
+}
+
+.logo {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.75rem;
+    height: 2.75rem;
+    width: 8rem;
+}
+
+
+.botao_logo {
+    height: 2.75rem;
+    width: 8rem;
+    border: 0;
+    border-radius: 1rem;
+    background-color: #d9d9d9;
+}
+
+.criar_conta {
+    position: absolute;
+    height: 2.5rem;
+    width: 5.75rem;
+    right: 10rem;
+    top: 1rem;
+
+}
+
+.botao_criar_conta {
+    background-color: #8bc34a;
+    color: #222e50;
+    font-family: 'Inter', sans-serif;
+    border-width: 0;
+    height: 2.5rem;
+    border-radius: 1rem;
+    width: 5.75rem;
+    font-size: 1rem;
+}
+
+
+button {
+    cursor: pointer;
+}
+.recuperacao {
+    display: flex;
+    align-items: center;
+    padding: 10% 0%;
+
+}
+
+
+.recuperacao_caixa {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.682);   
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    height: 43rem;
+    width: 35rem;
+    border-radius: 1rem;
+    background-color: #222E50;
+
+}
+
+
+.recuperacao_caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto_recuperacao{
+    font-size: 2rem;
+    padding-bottom:4rem;
+    color: rgba(255, 255, 255, 0.682);   
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.input_nova_senha {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.input_nova_senha_novamente {
+    padding-bottom: 4rem;
+}
+
+#txt_novasenha {
+    width: 23rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0;
+}
+
+
+.cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+#botao_cadastrar {
+    width: 15rem;
+    height: 3rem;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 700;
+    color: #111E3E;
+    border: 0;
+    border-radius: 1rem;
+}
+
+input {
+    padding-left: 1rem;
+}
